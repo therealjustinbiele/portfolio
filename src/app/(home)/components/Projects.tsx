@@ -245,8 +245,7 @@ const cards = [
     content: () => {
       return (
         <div>
-          <div className="w-full h-1 bg-indigo-500"></div>
-          <h1 className="text-2xl">Stack</h1>
+          <h1 className="text-2xl mb-5">Stack</h1>
           <ul>
             <li>&gt; React</li>
             <li>&gt; Redux</li>
@@ -254,7 +253,7 @@ const cards = [
             <li>&gt; Contentful</li>
             <li>&gt; AWS services</li>
           </ul>
-          <div className="w-full h-1 bg-indigo-500"></div>
+          <div className="w-full h-1 bg-indigo-500 my-5"></div>
           <p>
             Bethesda.net is the official website and online service platform for Bethesda Softworks, offering game information and purchases, community engagement through forums, support for mods and content creation, news and updates on games, account management, and customer support resources.          </p>
           <p></p>
@@ -271,8 +270,7 @@ const cards = [
     content: () => {
       return (
         <div>
-          <div className="w-full h-1 bg-indigo-500"></div>
-          <h1 className="text-2xl">Stack</h1>
+          <h1 className="text-2xl mb-5">Stack</h1>
           <ul>
             <li>&gt; React</li>
             <li>&gt; Redux</li>
@@ -281,7 +279,7 @@ const cards = [
             <li>&gt; Django</li>
             <li>&gt; MySQL</li>
           </ul>
-          <div className="w-full h-1 bg-indigo-500"></div>
+          <div className="w-full h-1 bg-indigo-500 my-5"></div>
           <p>
           The Bethesda Launcher was a digital distribution platform and game launcher developed by Bethesda Softworks. It allowed users to purchase, download, and play Bethesda games directly from the service. The launcher also provided updates for games, managed installed games, and supported modding for titles like "The Elder Scrolls V: Skyrim" and "Fallout 4." Additionally, it featured news updates and community integration. However, in 2022, Bethesda announced that they would be retiring the Bethesda Launcher and migrating its features and user libraries to Steam.
           </p>
@@ -299,15 +297,14 @@ const cards = [
     content: () => {
       return (
         <div>
-        <div className="w-full h-1 bg-indigo-500"></div>
-        <h1 className="text-2xl">Stack</h1>
+        <h1 className="text-2xl mb-5">Stack</h1>
         <ul>
           <li>&gt; jQuery</li>
           <li>&gt; Express</li>
           <li>&gt; AWS services</li>
           <li>&gt; MySQL / Sequelize</li>
         </ul>
-        <div className="w-full h-1 bg-indigo-500"></div>
+        <div className="w-full h-1 bg-indigo-500 my-5"></div>
         <p>
           Tespa.org, founded by Blizzard Entertainment, was dedicated to supporting collegiate esports by organizing leagues and tournaments for games like "Overwatch" and "Hearthstone," building campus gaming communities, offering scholarships and prizes, providing networking opportunities, and giving exclusive in-game rewards to participants.
         </p>
@@ -324,15 +321,14 @@ const cards = [
     content: () => {
       return (
         <div>
-          <div className="w-full h-1 bg-indigo-500"></div>
-          <h1 className="text-2xl">Stack</h1>
+          <h1 className="text-2xl mb-5">Stack</h1>
           <ul>
             <li>&gt; Angular JS</li>
             <li>&gt; Express</li>
             <li>&gt; Cordova</li>
             <li>&gt; Node BLE</li>
           </ul>
-          <div className="w-full h-1 bg-indigo-500"></div>
+          <div className="w-full h-1 bg-indigo-500 my-5"></div>
           <p>
             Heads Up Display is a industrial safety IoT wearable. It connects to workers phones through a mobile application, tracks and aggregates industrial environment data, and provides peripheral alerts and notifications.
           </p>
