@@ -12,7 +12,10 @@ export default function Jumbotron() {
                     I'm <span className="relative underline underline-offset-1 decoration-green-500">JB</span>
                 </h1>
                 <p className="md:w-96 text-lg text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facere tempora nihil sequi maiores, nam mollitia eligendi. Earum numquam quis officiis exercitationem necessitatibus facilis dolorum sed sint ipsam, commodi suscipit!
+                    I am a software engineer with over 7 years of experience working on products ranging from IoT safety wearables to video game studio tools. I have genuine passion for technology and how it can improve our world.
+                </p>
+                <p className="md:w-96 text-lg text-gray-300">
+                    Are you interested in learning how to code? I teach adult learners how to write code and develop their own applications. Get in touch if you want to learn more!
                 </p>
                 <Link className="inline-block group" href={"mailto:justin.biele@gmail.com"}>
                     <Title text="Contact Me"></Title>
