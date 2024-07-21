@@ -244,18 +244,21 @@ const cards = [
     ctaLink: "https://bethesda.net",
     content: () => {
       return (
-        <p>
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
-          drawing inspiration from both contemporary and vintage pop culture.
-          With a career that has seen numerous critically acclaimed albums, Lana
-          Del Rey has established herself as a unique and influential figure in
-          the music industry, earning a dedicated fan base and numerous
-          accolades.
-        </p>
+        <div>
+          <div className="w-full h-1 bg-indigo-500"></div>
+          <h1 className="text-2xl">Stack</h1>
+          <ul>
+            <li>&gt; React</li>
+            <li>&gt; Redux</li>
+            <li>&gt; Material UI</li>
+            <li>&gt; Contentful</li>
+            <li>&gt; AWS services</li>
+          </ul>
+          <div className="w-full h-1 bg-indigo-500"></div>
+          <p>
+            Bethesda.net is the official website and online service platform for Bethesda Softworks, offering game information and purchases, community engagement through forums, support for mods and content creation, news and updates on games, account management, and customer support resources.          </p>
+          <p></p>
+        </div>
       );
     },
   },
@@ -267,17 +270,22 @@ const cards = [
     ctaLink: "https://bethesda.net/en/article/2RXxG1y000NWupPalzLblG/sunsetting-the-bethesda-net-launcher-and-migrating-to-steam",
     content: () => {
       return (
-        <p>
-          Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-          voice and profound lyrics that resonate deeply with his audience. Born
-          in the village of Khant Maanpur in Punjab, India, he has become a
-          cultural icon in the Punjabi music industry. <br /> <br /> His songs
-          often reflect the struggles and triumphs of everyday life, capturing
-          the essence of Punjabi culture and traditions. With a career spanning
-          over two decades, Babu Maan has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
-        </p>
+        <div>
+          <div className="w-full h-1 bg-indigo-500"></div>
+          <h1 className="text-2xl">Stack</h1>
+          <ul>
+            <li>&gt; React</li>
+            <li>&gt; Redux</li>
+            <li>&gt; Electron</li>
+            <li>&gt; GoLang / gRPC</li>
+            <li>&gt; Django</li>
+            <li>&gt; MySQL</li>
+          </ul>
+          <div className="w-full h-1 bg-indigo-500"></div>
+          <p>
+          The Bethesda Launcher was a digital distribution platform and game launcher developed by Bethesda Softworks. It allowed users to purchase, download, and play Bethesda games directly from the service. The launcher also provided updates for games, managed installed games, and supported modding for titles like "The Elder Scrolls V: Skyrim" and "Fallout 4." Additionally, it featured news updates and community integration. However, in 2022, Bethesda announced that they would be retiring the Bethesda Launcher and migrating its features and user libraries to Steam.
+          </p>
+        </div>
       );
     },
   },
@@ -287,42 +295,48 @@ const cards = [
     title: "Tespa",
     src: "/tespa.png",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://www.tespa.org",
     content: () => {
       return (
+        <div>
+        <div className="w-full h-1 bg-indigo-500"></div>
+        <h1 className="text-2xl">Stack</h1>
+        <ul>
+          <li>&gt; jQuery</li>
+          <li>&gt; Express</li>
+          <li>&gt; AWS services</li>
+          <li>&gt; MySQL / Sequelize</li>
+        </ul>
+        <div className="w-full h-1 bg-indigo-500"></div>
         <p>
-          Metallica, an iconic American heavy metal band, is renowned for their
-          powerful sound and intense performances that resonate deeply with
-          their audience. Formed in Los Angeles, California, they have become a
-          cultural icon in the heavy metal music industry. <br /> <br /> Their
-          songs often reflect themes of aggression, social issues, and personal
-          struggles, capturing the essence of the heavy metal genre. With a
-          career spanning over four decades, Metallica has released numerous hit
-          albums and singles that have garnered them a massive fan following
-          both in the United States and abroad. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, ducimus nobis vitae deleniti quidem quam expedita ea dolorem, voluptatum reiciendis fugit dicta itaque assumenda maxime quos amet magni consequuntur recusandae?
+          Tespa.org, founded by Blizzard Entertainment, was dedicated to supporting collegiate esports by organizing leagues and tournaments for games like "Overwatch" and "Hearthstone," building campus gaming communities, offering scholarships and prizes, providing networking opportunities, and giving exclusive in-game rewards to participants.
         </p>
+      </div>
       );
     },
   },
   {
     description: "Heads Up",
-    title: "Heads Up Safe",
+    title: "Heads Up Display",
     src: "/headsup.png",
     ctaText: "Visit",
     ctaLink: "https://www.linkedin.com/company/heads-up-display-inc-/",
     content: () => {
       return (
-        <p>
-          Himesh Reshammiya, a renowned Indian music composer, singer, and
-          actor, is celebrated for his distinctive voice and innovative
-          compositions. Born in Mumbai, India, he has become a prominent figure
-          in the Bollywood music industry. <br /> <br /> His songs often feature
-          a blend of contemporary and traditional Indian music, capturing the
-          essence of modern Bollywood soundtracks. With a career spanning over
-          two decades, Himesh Reshammiya has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
-        </p>
+        <div>
+          <div className="w-full h-1 bg-indigo-500"></div>
+          <h1 className="text-2xl">Stack</h1>
+          <ul>
+            <li>&gt; Angular JS</li>
+            <li>&gt; Express</li>
+            <li>&gt; Cordova</li>
+            <li>&gt; Node BLE</li>
+          </ul>
+          <div className="w-full h-1 bg-indigo-500"></div>
+          <p>
+            Heads Up Display is a industrial safety IoT wearable. It connects to workers phones through a mobile application, tracks and aggregates industrial environment data, and provides peripheral alerts and notifications.
+          </p>
+        </div>
       );
     },
   },
